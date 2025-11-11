@@ -35,7 +35,7 @@ document.querySelector("form").addEventListener("submit", async function (e) {
       mimetype,
     });
 
-    const response = await fetch("https://script.google.com/macros/s/AKfycbzxKoyY19TYXNl1uQ5QB_8Oh-xcr6S2HFFBu0Y2obGNVyxqhUvN2lN8HKSI-O7dvfFZfg/exec", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycby47Sj19eZOZQ6cUb8gm1l_fQpHj4dstiiJe1ffMfBMUyiq5tyiPhGg0yuSBjICIH2--Q/exec", {
       method: "POST",
       body: data,
     });
@@ -77,3 +77,4 @@ function mostrarMensaje(texto, exito = true) {
     mensaje.style.display = "none";
   }, 10000);
 }
+
