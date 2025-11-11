@@ -7,7 +7,7 @@ body {
   background-color: #f5f7fc;
   color: #333;
   background-image: url('/assets/back_001.jpg');
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 
 header {
@@ -114,5 +114,6 @@ footer {
   margin-top: 40px;
   color: #666;
 }
+
 
 
