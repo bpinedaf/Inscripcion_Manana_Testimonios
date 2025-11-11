@@ -14,6 +14,8 @@ header {
   background-color: #f1f3fb; /* opcional si usas solo imagen */
   text-align: center;
   padding: 20px 0;
+  background-image: url('/assets/back_001.jpg');
+  background-repeat: repeat;
 }
 
 header img {
@@ -114,6 +116,7 @@ footer {
   margin-top: 40px;
   color: #666;
 }
+
 
 
 
