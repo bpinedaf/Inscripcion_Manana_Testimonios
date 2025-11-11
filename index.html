@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inscripción - Convención 2025</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/Logo_Comunidad.ico" type="image/x-icon">
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-36TGN4SLH3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-36TGN4SLH3');
+</script>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/Imagen_Convencion.jpg" alt="Convención 2025" />
+    </header>
+	<main>
+		<h1>Inscripción - Convención 2025<br>"Encuéntrame, Encuéntrate"</h1>
+		<p>Bienvenida a nuestra <strong>Convención "Encuéntrame, Encuéntrate"</strong></p>
+		<!--<p><em>“Me buscarán y me encontrarán, porque me buscarán de todo corazón. Sí, yo dejaré que ustedes me encuentren y haré que cambie su suerte”</em>. Jeremías 28:13,14A.</p> -->
+
+		<ul>
+		  <li>📅 <strong>Fecha del evento:</strong> Viernes 5 de septiembre de 08:00 a 15:00 horas.</li>
+		  <li>📌 <strong>Ubicación:</strong> Salón Santo Domingo. Parroquia San Martín de Porres, Zona 15.</li>
+		  <li>💰 <strong>Costo de inscripción:</strong> Q300 por participante.</li>
+		</ul>
+
+		<p>Para completar su inscripción, por favor:</p>
+		<ul>
+		  <li>✅ <strong>Llena todos los campos requeridos.</strong></li>
+		  <li>✅ <strong>Sube el comprobante de pago</strong> si ya realizaste el depósito.</li>
+		</ul>
+
+		<p><strong>✦ Cuenta bancaria para el pago:</strong><br>
+		🔹 Banco Industrial - Monetaria - <strong>0180070128</strong> a nombre de Brenda Patricia Velázquez Díaz<br>
+		📩 WhatsApp para enviar comprobante: <strong>+502 4008-1655</strong></p>
+
+		<p>📅 Una vez completado el formulario, recibirás un correo de confirmación con más detalles.</p>
+
+		<p><strong>❤️ ¡Esperamos contar contigo en este evento tan especial!</strong></p>
+
+		<form>
+		  <label for="nombre">Nombre de la Participante *</label>
+		  <input type="text" id="nombre" required>
+
+		  <label for="telefono">Número de Celular *</label>
+		  <input type="text" id="telefono" required>
+
+		  <label for="correo">Correo Electrónico *</label>
+		  <input type="email" id="correo" required>
+
+		  <label for="comprobante">Comprobante de depósito</label>
+		  <input type="file" id="comprobante" accept="image/*,application/pdf">
+
+		  <label for="como">¿Cómo te enteraste de esta convención?</label>
+		  <select id="como">
+			<option>Por la asociación / amigas que asisten</option>
+			<option>Por redes sociales</option>
+			<option>Por la Parroquia</option>
+			<option>Anuncio</option>
+		  </select>
+
+		  <button type="submit" id="submitBtn">Enviar Inscripción</button>
+		  
+		  <div id="loading" style="display:none; text-align:center; color:#444; margin-top: 10px;">
+			<p>⏳ Procesando inscripción, por favor espera...</p>
+		  </div>
+		  
+		  <div id="mensaje" style="display:none; text-align:center; margin-top:15px; padding:10px; border-radius:8px;"></div>
+
+
+		</form>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>

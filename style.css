@@ -1,0 +1,114 @@
+/* Tipografías personalizadas */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  background-color: #f5f7fc;
+  color: #333;
+}
+
+header {
+  background-color: #f1f3fb; /* opcional si usas solo imagen */
+  text-align: center;
+  padding: 20px 0;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+
+main {
+  max-width: 750px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #2c2c6c;
+}
+
+h2 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 1.4em;
+  color: #2c2c6c;
+  margin-top: 30px;
+}
+
+p, li {
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #333;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.95em;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #5061b6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  font-family: 'Comfortaa', cursive;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3c4896;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  margin-top: 40px;
+  color: #666;
+}
