@@ -6,6 +6,7 @@ body {
   font-family: 'Comfortaa', cursive;
   background-color: #f5f7fc;
   color: #333;
+  background-image: url('/assets/back_001.jpg');
 }
 
 header {
@@ -112,3 +113,4 @@ footer {
   margin-top: 40px;
   color: #666;
 }
+
